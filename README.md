@@ -1,2 +1,6 @@
 # overallRepo
-Contains overall unclassified information.
+
+This repository contains:
+- Overall unclassified information.
+- Test projects and code.
+
