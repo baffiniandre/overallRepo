@@ -10,4 +10,19 @@ def sqrtOperator():
     else:
         print("Result: ", result)
 
+def complex_calculation(num):
+    try:
+        result = num / (num - 5)
+        print (f"Result: {result}")
+    except Exception as e:
+        print("An error occurred during calculation: ", e)
+
+#test sqrtOperator:
+print("Testing sqrtOperator function")
 sqrtOperator()
+
+#test complex_calculation:
+print("Testing complex_calculation function")
+user_input = float(input("Enter a number: "))
+complex_calculation(user_input)
+
