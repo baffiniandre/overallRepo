@@ -30,7 +30,7 @@ person2 = Person.createNewBorn("Sam", "Male")
 
 /* important note:
 
-This happens because of a strict, unbreakable rule in Python: **Positional arguments cannot follow keyword arguments.**
+Unbreakable rule in Python: **Positional arguments cannot follow keyword arguments.**
 
 When you pass information into a function (or into a class, like `cls()`), Python lets you do it in two ways:
 
